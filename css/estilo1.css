@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+h4 {text-align:center}
+#divimagen1 {width:750px; height:250px; background:-webkit-gradient(linear, 80% 20%, 17% 73%, from(#B4BAE4), to(#D9CF6E)); margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion1 {width:350px; height:120px; background-color:#09F; float:right; margin-right:10px; } 
+#divprecio1 {width:150px; height:120px; background-color:#0C3; float:right;}
+ 
+ 
+ 
+#divimagen2 {width:750px; height:250px; background-color:#093; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion2 {width:350px; height:120px; background-color:#09F; float:right; margin-right:10px;} 
+#divprecio2 {width:150px; height:120px; background-color:#0FF; float:right;} 
+
+#divimagen3 {width:750px; height:250px; background-color:#09F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion3 {width:350px; height:120px; background-color:#0C0; float:right; margin-right:10px;} 
+#divprecio3 {width:150px; height:120px; background-color:#6F3; float:right;} 
+
+
+
+
+
+
+#divimagen4 {width:750px; height:250px; background-color:#00F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion4 {width:350px; height:120px; background-color:#6C0; float:right; margin-right:10px;} 
+#divprecio4 {width:150px; height:120px; background-color:#6F9; float:right;} 
+
+#divimagen5 {width:750px; height:250px; background-color:#066; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion5 {width:350px; height:120px; background-color:#0C6; float:right; margin-right:10px;} 
+#divprecio5 {width:150px; height:120px; background-color:#C90; float:right;} 
+
+#divimagen6 {width:750px; height:250px; background-color:#C60; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion6 {width:350px; height:120px; background-color:#F30; float:right; margin-right:10px;} 
+#divprecio6 {width:150px; height:120px; background-color:#FC3; float:right;} 
+
+
+
+
+
+
+
+
+#divimagen7 {width:750px; height:250px; background-color:#9C0; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion7 {width:350px; height:120px; background-color:#CCC; float:right; margin-right:10px;} 
+#divprecio7 {width:150px; height:120px; background-color:#399; float:right;} 
+
+#divimagen8 {width:750px; height:250px; background-color:#F00; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion8 {width:350px; height:120px; background-color:#33F; float:right; margin-right:10px;} 
+#divprecio8 {width:150px; height:120px; background-color:#9C3; float:right;} 
+
+#divimagen9 {width:750px; height:250px; background-color:#093; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion9 {width:350px; height:120px; background-color:#09F; float:right; margin-right:10px;} 
+#divprecio9 {width:150px; height:120px; background-color:#0C3; float:right;} 
+
+
+
+
+
+
+
+#divimagen10 {width:750px; height:250px; background-color:#CF3; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion10 {width:350px; height:120px; background-color:#C99; float:right; margin-right:10px;} 
+#divprecio10 {width:150px; height:120px; background-color:#F69; float:right;} 
+
+#divimagen11 {width:750px; height:250px; background-color:#0FC; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion11 {width:350px; height:120px; background-color:#939; float:right; margin-right:10px;} 
+#divprecio11 {width:150px; height:120px; background-color:#C90; float:right;} 
+
+#divimagen12 {width:750px; height:250px; background-color:#C36; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion12 {width:350px; height:120px; background-color:#3CC; float:right; margin-right:10px;} 
+#divprecio12 {width:150px; height:120px; background-color:#0F6; float:right;} 
+
+
+
+
+
+#divimagen13 {width:750px; height:250px; background-color:#9F9; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion13 {width:350px; height:120px; background-color:#936; float:right; margin-right:10px;} 
+#divprecio13 {width:150px; height:120px; background-color:#0F0; float:right;} 
+
+#divimagen14 {width:750px; height:250px; background-color:#9CF; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion14 {width:350px; height:120px; background-color:#C36; float:right; margin-right:10px;} 
+#divprecio14 {width:150px; height:120px; background-color:#3FF; float:right;} 
+
+#divimagen15 {width:750px; height:250px; background-color:#F3F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion15 {width:350px; height:120px; background-color:#F99; float:right; margin-right:10px;} 
+#divprecio15 {width:150px; height:120px; background-color:#FF3; float:right;} 
+
+ 
+ 
+ 
+ 
+ #divimagen16 {width:750px; height:250px; background-color:#93F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion16 {width:350px; height:120px; background-color:#C3C; float:right; margin-right:10px;} 
+#divprecio16 {width:150px; height:120px; background-color:#F3C; float:right;} 
+
+ #divimagen17 {width:750px; height:250px; background-color:#99F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion17 {width:350px; height:120px; background-color:#F06; float:right; margin-right:10px;} 
+#divprecio17 {width:150px; height:120px; background-color:#FFF; float:right;} 
+
+ #divimagen18 {width:750px; height:250px; background-color:#0FF; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion18 {width:350px; height:120px; background-color:#FF0; float:right; margin-right:10px;} 
+#divprecio18 {width:150px; height:120px; background-color:#C9F; float:right;} 
+
+
+
+
+
+
+
+ #divimagen19 {width:750px; height:250px; background-color:#FF0; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion19 {width:350px; height:120px; background-color:#0FF; float:right; margin-right:10px;} 
+#divprecio19 {width:150px; height:120px; background-color:#F60; float:right;} 
+
+ #divimagen20 {width:750px; height:250px; background-color:#CFF; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion20 {width:350px; height:120px; background-color:#0F6; float:right; margin-right:10px;} 
+#divprecio20 {width:150px; height:120px; background-color:#FF6; float:right;} 
+
+ #divimagen21 {width:750px; height:250px; background-color:#3F3; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion21 {width:350px; height:120px; background-color:#699; float:right; margin-right:10px;} 
+#divprecio21 {width:150px; height:120px; background-color:#0C3; float:right;} 
+
+
+
+
+
+ #divimagen22 {width:750px; height:250px; background-color:#F00; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion22 {width:350px; height:120px; background-color:#0F0; float:right; margin-right:10px;} 
+#divprecio22 {width:150px; height:120px; background-color:#9CC; float:right;} 
+
+ #divimagen23 {width:750px; height:250px; background-color:#C93; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion23 {width:350px; height:120px; background-color:#F63; float:right; margin-right:10px;} 
+#divprecio23 {width:150px; height:120px; background-color:#FC6; float:right;} 
+
+ #divimagen24 {width:750px; height:250px; background-color:#9F0; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion24 {width:350px; height:120px; background-color:#699; float:right; margin-right:10px;} 
+#divprecio24 {width:150px; height:120px; background-color:#F90; float:right;} 
+
+
+
+
+
+ #divimagen25 {width:750px; height:250px; background-color:#099; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion25 {width:350px; height:120px; background-color:#FFF; float:right; margin-right:10px;} 
+#divprecio25 {width:150px; height:120px; background-color:#0F6; float:right;} 
+
+ #divimagen26{width:750px; height:250px; background-color:#F60; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion26 {width:350px; height:120px; background-color:#FF0; float:right; margin-right:10px;} 
+#divprecio26 {width:150px; height:120px; background-color:#C96; float:right;} 
+
+ 
+ #divimagen27 {width:750px; height:250px; background-color:#FC3; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion27 {width:350px; height:120px; background-color:#6CC; float:right; margin-right:10px;} 
+#divprecio27 {width:150px; height:120px; background-color:#6F6; float:right;} 
+
+
+
+
+
+
+
+
+ #divimagen28 {width:750px; height:250px; background-color:#F0F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion28 {width:350px; height:120px; background-color:#FF0; float:right; margin-right:10px;} 
+#divprecio28 {width:150px; height:120px; background-color:#3F9; float:right;} 
+
+#divimagen29 {width:750px; height:250px; background-color:#0CC; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion29 {width:350px; height:120px; background-color:#F6C; float:right; margin-right:10px;} 
+#divprecio29 {width:150px; height:120px; background-color:#C36; float:right;} 
+
+#divimagen30 {width:750px; height:250px; background-color:#636; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion30 {width:350px; height:120px; background-color:#99C; float:right; margin-right:10px;} 
+#divprecio30 {width:150px; height:120px; background-color:#F96; float:right;} 
+
+ 
+ #divimagen31 {width:750px; height:250px; background-color:#F6C; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion31 {width:350px; height:120px; background-color:#FC3; float:right; margin-right:10px;} 
+#divprecio31 {width:150px; height:120px; background-color:#6CC; float:right;} 
+
+#divimagen32 {width:750px; height:250px; background-color:#CFC; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion32 {width:350px; height:120px; background-color:#966; float:right; margin-right:10px;} 
+#divprecio32 {width:150px; height:120px; background-color:#F96; float:right;} 
+
+#divimagen33 {width:750px; height:250px; background-color:#6FF; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion33 {width:350px; height:120px; background-color:#F93; float:right; margin-right:10px;} 
+#divprecio33 {width:150px; height:120px; background-color:#0FC; float:right;} 
+
+ 
+ 
+  #divimagen34 {width:750px; height:250px; background-color:#C33; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion34 {width:350px; height:120px; background-color:#9C9; float:right; margin-right:10px;} 
+#divprecio34 {width:150px; height:120px; background-color:#96C; float:right;} 
+
+#divimagen35 {width:750px; height:250px; background-color:#F36; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion35 {width:350px; height:120px; background-color:#F66; float:right; margin-right:10px;} 
+#divprecio35 {width:150px; height:120px; background-color:#F63; float:right;} 
+
+#divimagen36 {width:750px; height:250px; background-color:#F9F; margin-right:1000px; margin-bottom:30px;} 
+#divdescripcion36 {width:350px; height:120px; background-color:#36F; float:right; margin-right:10px;} 
+#divprecio36 {width:150px; height:120px; background-color:#9FF; float:right;} 
+
+ 
+ 
+ 
+ 
+ 
+ 

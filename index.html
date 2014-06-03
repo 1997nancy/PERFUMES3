@@ -1,0 +1,483 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<link rel="stylesheet" href="css/estilo1.css" type="text/css">
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1> PERFUMES </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2"> PERFUMES PARA HOMBRES </a></li>
+            <li><a href="#page3">PERFUMES PARA MUJERES </a></li>
+			 <li><a href="#page4"> PERFUMES PARA NIÑOS </a></li>
+             <li><a href="#page5"> PERFUMES PARA NIÑAS </a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4> NANCY MANTILLA SOSA </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>PERFUMES PARA HOMBRES </h1>
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview">
+         <li><a href="#perfume1"> PERFUMES PACO RABANNE </a></li>
+            <li><a href="#perfume2"> PERFUMES ANTONIO BANDERAS </a></li>
+			  <li><a href="#perfume3"> PERFUMES CALVIN KLEINE </a></li> 
+        </ul>
+    	</div>
+	
+    <div data-role="footer">
+		<h4> MUESTRA TRES PERFUMES </h4>
+	</div>
+</div>
+   
+   
+   
+   
+   
+   
+   
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>PERFUMES PARA MUJERES </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+         <li><a href="#perfume4"> PERFUMES PARIS HILTON  </a></li>
+            <li><a href="#perfume5">PERFUMES ELIZABETH TAYLOR  </a></li>
+			  <li><a href="#perfume6"> PERFUMES CAROLINA HERRERA </a></li> 
+        </ul>
+    	</div>
+	
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES </h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>PERFUMES PARA NIÑOS </h1>
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview">
+         <li><a href="#perfume7">  PERFUMES Baby Touch EDT </a></li>
+            <li><a href="#perfume8"> PERFUMES KING PIG EDP </a></li>
+			  <li><a href="#perfume9"> PERFUMES Petits et Mamans EDT </a> </li> 
+        </ul>
+    	</div>
+	
+    <div data-role="footer">
+		<h4> MUESTRA TRES PERFUMES </h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>PERFUMES PARA NIÑAS </h1>
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview">
+         <li><a href="#perfume10"> PERFUMES HELLO KITY  </a></li>
+            <li><a href="#perfume11"> PERFUMES BARBIE </a></li>
+			  <li><a href="#perfume12"> PERFUMES PRINCESS </a></li> 
+        </ul>
+    	</div>
+	
+    <div data-role="footer">
+		<h4> MUESTRA TRES PERFUMES </h4>
+	</div>
+</div>
+
+
+
+
+ <div data-role="page" id="perfume1">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE PACO RABANE </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen1"> <br> <img src="imagenes/85245_original.jpg" width="200" height="200">    
+        <div id="divprecio1"> <h4> PRECIO: $800.00  </h4> </div>
+  <div id="divdescripcion1"> <h4> Descripción: Big Pony 1 de Ralph Lauren es una mezcla fresca y  
+estimulante del pomelo espumosos y el fresco loto azul.  </h4>
+  </div> </div>
+  
+     <div id="divimagen2"> <br> <img src="imagenes/rl-poloexplorer-m500 (1).jpg" width="200" height="200">
+    <div id="divprecio2"> <h4> PRECIO: $700.00  </h4> </div>
+  <div id="divdescripcion2">
+  <h4> Descripción: Ralph Lauren es una mezcla picante y seductora de chocolate negro y almizcle. Una fragancia muy masculina.  </h4> </div> </div>
+     
+     <div id="divimagen3">   <img src="imagenes/RalphLauren-Romance-M500.jpg" width="200" height="200">  
+      <div id="divprecio3"> <h4> PRECIO: $730.00  </h4> </div>
+      	<div id="divdescripcion3"> <h4> Descripción: Es un perfume de aventura para el amante de la naturaleza, con toques de menta fresca y jengibre.  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE PACO RABANE </h4>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="perfume2">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE ANTONIO BANDERAS </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen4"> <br> <img src="imagenes/blackpearls.jpg"  width="200" height="200">    
+        <div id="divprecio4"> <h4> PRECIO: $560.00  </h4> </div>
+  <div id="divdescripcion4"> <h4> Descripción: Es una fusión audaz de mango helado, plateada armoise y negro pachulí. Moderna. Atrevida. Sofisticada.  </h4>
+  </div> </div>
+  
+     <div id="divimagen5"> <br> <img src="imagenes/Ralph lauren Polo Blue For Men EDT.jpg" width="200" height="200">
+    <div id="divprecio5"> <h4> PRECIO: $670.00  </h4> </div>
+  <div id="divdescripcion5">
+  <h4> Descripción: La libertad del gran cielo azul, la energía de las aguas abiertas, una ráfaga de aire fresco vigorizante.  </h3> </div> </div>
+     
+     <div id="divimagen6">    <img src="imagenes/perfume-obsession-night-for-men-calvin-klein-125ml_MLB-F-3252071531_102012.jpg" width="200" height="200">  
+      <div id="divprecio6"> <h4> PRECIO: $720.00  </h4> </div>
+      	<div id="divdescripcion6"> <h4> Descripción: Polo Blue Sport, una nueva fragancia para hombres elegantes, atléticos y amantes del riesgo.  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE ANTONIO BANDERAS </h4>
+	</div>
+</div>
+
+
+
+
+    <div data-role="page" id="perfume3">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE CALVIN KLANE </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen7"> <br> <img src="imagenes/36W.jpg"  width="200" height="200">    
+        <div id="divprecio7"> <h4> PRECIO: $780.00  </h4> </div>
+  <div id="divdescripcion7"> <h4> Descripción: Celebrando el eterno atractivo del estilo de vida deportivo, la legendaria fragancia Ralph Lauren Polo combina lo mejor de la madera. </h4>
+  </div> </div>
+  
+     <div id="divimagen8"> <br> <img src="imagenes/calvin_klein_euphoria_men1-600x600.jpg" width="200" height="200">
+    <div id="divprecio8"> <h4> PRECIO: $810.00  </h4> </div>
+  <div id="divdescripcion8">
+  <h4> Descripción: Polo Explorer de Ralph Lauren es una fragancia amaderada aromática para hombre. </h4> </div> </div>
+     
+     <div id="divimagen9">  <img src="imagenes/Calvin Klein Eternity for Men 100ml.jpg" width="200" height="200">  
+      <div id="divprecio9"> <h4> PRECIO: $670.00  </h4> </div>
+      	<div id="divdescripcion9"> <h4> Descripción: Es una fragancia masculina fresca y aromática. Es la respuesta a la búsqueda del bienestar físico y mental. </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE CALVIN KLANE </h4>
+	</div>
+</div>
+  
+
+
+
+
+ <div data-role="page" id="perfume4">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE PARIS HILTON </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen10"> <br> <img src="imagenes/60806W.jpg" width="200" height="200">    
+        <div id="divprecio10"> <h4> PRECIO: $900.00  </h4> </div>
+  <div id="divdescripcion10"> <h4> Descripción: 
+Clásico por excelencia para el día y la noche para mujeres clásicas, modernas y juveniles. Una fragancia muy refinada.
+ </h4>
+  </div> </div>
+  
+     <div id="divimagen11"> <br> <img src="imagenes/carolina-herrera-212-sexy-60ml-750x750.jpg"width="200" height="200">
+    <div id="divprecio11"> <h4> PRECIO: $650.00  </h4> </div>
+  <div id="divdescripcion11">
+  <h4> Descripción: Fragancias con notas dominantes especiadas, frutales y de ámbar. Seductor, insinuante, intenso y de emociones fuertes. Atrevida y provocativa, enigmática y misteriosa.   </h4> </div> </div>
+     
+     <div id="divimagen12">   <img src="imagenes/0071934658134_500X500.jpg" width="200" height="200">  
+      <div id="divprecio12"> <h4> PRECIO: $550.00  </h4> </div>
+      	<div id="divdescripcion12"> <h4> Descripción: 
+Poison es un perfume que tiene mucho que decir. Resplandeciente corazón especiado, un mensaje seductor y siempre turbado.
+  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE PARIS HILTON</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="perfume5">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE ELIZABETH TAYLOR </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen13"> <br> <img src="imagenes/1215W.jpg" width="200" height="200">    
+        <div id="divprecio13"> <h4> PRECIO: $700.00  </h4> </div>
+  <div id="divdescripcion13"> <h4> Descripción: Fragancia notas dominantes florales, para la dama clásica, elegante y sofisticada, de gustos refinados. Un clásico muy distinguido.   </h4>
+  </div> </div>
+  
+     <div id="divimagen14"> <br> <img src="imagenes/dsc-0477.jpg"width="200" height="200" >
+    <div id="divprecio14"> <h4> PRECIO: $670.00  </h4> </div>
+  <div id="divdescripcion14">
+  <h4> Descripción: Esta fragancia es para todas aquellas mujeres sensuales, envueltas en un halo de misterio.
+ 
+ </h4> </div> </div>
+     
+     <div id="divimagen15">   <img src="imagenes/dsc-0541.jpg" width="200" height="200">  
+      <div id="divprecio15"> <h4> PRECIO: $780.00  </h4> </div>
+      	<div id="divdescripcion15"> <h4> Descripción: Este aroma femenino posee una mezcla de la albahaca, del jazmín, de la lavanda y del sándalo. Se recomienda para el desgaste de la tarde.  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE ELIZABETH TAYLOR </h4>
+	</div>
+</div>
+
+<div data-role="page" id="perfume6">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE CAROLINA HERRERA </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen16"> <br> <img src="imagenes/001.jpg" width="200" height="200">    
+        <div id="divprecio16"> <h4> PRECIO: $750.00  </h4> </div>
+  <div id="divdescripcion16"> <h4> Descripción: Notas florales, frutadas, sedosas y amparadas. Aromas para mujeres sofisticadas, suaves y femeninas. </h4>
+  </div> </div>
+  
+     <div id="divimagen17"> <br> <img src="imagenes/002.jpg" width="200" height="200" >
+    <div id="divprecio17"> <h4> PRECIO: $540.00  </h4> </div>
+  <div id="divdescripcion17">
+  <h4> Descripción: Mujeres que desean tener un poco de romanticismo en su vida y van a saber disfrutarlo de forma intensa. </h4> </div> </div>
+     
+     <div id="divimagen18">   <img src="imagenes/003.jpg" width="200" height="200">  
+      <div id="divprecio18"> <h4> PRECIO: $710.00  </h4> </div>
+      	<div id="divdescripcion18"> <h4> Descripción: Única fragancia sensual. Este es un perfume para los momentos de ternura y para esos pequeños instantes placenteros de la vida.  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE CAROLINA HERRERA </h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="perfume7">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE Baby Touch EDT </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen19"> <br> <img src="imagenes/1.jpg"  width="200" height="200">    
+        <div id="divprecio19"> <h4> PRECIO: $400.00  </h4> </div>
+  <div id="divdescripcion19"> <h4> Descripción: El perfume Baby Touch de Burberry, es el eau de toilette para los más pequeños de esta prestigiosa marca y viene presentada en un gracioso y original frasco. 
+  </h4>
+  </div> </div>
+  
+     <div id="divimagen20"> <br> <img src="imagenes/2.jpg" width="200" height="200" >
+    <div id="divprecio20"> <h4> PRECIO: $450.00  </h4> </div>
+  <div id="divdescripcion20">
+  <h4> Descripción: Es un freso y alegre perfume que da un toque único y diferente en cada situación. Sus notas florales y afrutadas, especialmente dedicadas a los más pequeños. </h4> </div> </div>
+     
+     <div id="divimagen21">   <img src="imagenes/3.jpg" width="200" height="200">  
+      <div id="divprecio21"> <h4> PRECIO: $350.00  </h4> </div>
+      	<div id="divdescripcion21"> <h4> Descripción: un eau de toilette con las mismas características y esencia cítrica a base de naranja, mandarina y vainilla con las que trabaja Burberry en sus fragancias para bebés.  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE Baby Touch EDT </h4>
+	</div>
+</div>
+	
+
+
+<div data-role="page" id="perfume8">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE KING PIG EDP </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen22"> <br> <img src="imagenes/6.jpg"  width="200" height="200">    
+        <div id="divprecio22"> <h4> PRECIO: $400.00  </h4> </div>
+  <div id="divdescripcion22"> <h4> Descripción: Respeta y cuida todas las pieles sensibles de los niños  incluso cuando estan bebes, no se irrita la piel.
+  </h4>
+  </div> </div>
+  
+     <div id="divimagen23"> <br> <img src="imagenes/7.jpg" width="200" height="200" >
+    <div id="divprecio23"> <h4> PRECIO: $470.00  </h4> </div>
+  <div id="divdescripcion23">
+  <h4> Descripción: Es un perfume infantil Respeta y cuida todas las pieles sensibles de los niños incluso cuando estan bebes.  </h4> </div> </div>
+     
+     <div id="divimagen24">   <img src="imagenes/9.jpg" width="200" height="200">  
+      <div id="divprecio24"> <h4> PRECIO: $525.00  </h4> </div>
+      	<div id="divdescripcion24"> <h4> Descripción: Es una fragancia fresca y suave para niños y bebes; diferente y creativa. </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE KING PIG EDP  </h4>
+	</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="perfume9">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE Petits et Mamans EDT  </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen25"> <br> <img src="imagenes/4.jpg"  width="200" height="200">    
+        <div id="divprecio25"> <h4> PRECIO: $500.00  </h4> </div>
+  <div id="divdescripcion25"> <h4> Descripción: Esta versión sin alcohol del perfume infantil Petits et Mamans de Bulgari, respeta y cuida las pieles sensibles y delicadas de los más pequeños, especialmente cuando aún son bebés.
+  </h4>
+  </div> </div>
+  
+     <div id="divimagen26"> <br> <img src="imagenes/5.jpg" width="200" height="200" >
+    <div id="divprecio26"> <h4> PRECIO: $450.00  </h4> </div>
+  <div id="divdescripcion26">
+  <h4> Descripción: perfume infantil Petits et Mamans de Bulgari, respeta y cuida las pieles sensibles y delicadas de los más pequeños, especialmente cuando aún son bebés. </h4> </div> </div>
+     
+     <div id="divimagen27">   <img src="imagenes/8.jpg" width="200" height="200">  
+      <div id="divprecio27"> <h4> PRECIO: $400.00  </h4> </div>
+      	<div id="divdescripcion27"> <h4> Descripción: Una fragancia exclusiva de Bvlgari para niños y mamás; diferente y creativa. Producto delicado y seguro para los más pequeños, con ingredientes naturales. </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE Petits et Mamans EDT  </h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="perfume10">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE HELLO KITY </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen28"> <br> <img src="imagenes/99.jpg"  width="200" height="200">    
+        <div id="divprecio28"> <h4> PRECIO: $250.00  </h4> </div>
+  <div id="divdescripcion28"> <h4> Descripción: El perfume de todas las Bellezas ! . Lotus de KOKESHI desvela notas que simbolizan la belleza, delicadeza y fragilidad.
+  </h4>
+  </div> </div>
+  
+     <div id="divimagen29"> <br> <img src="imagenes/10.jpg" width="200" height="200" >
+    <div id="divprecio29"> <h4> PRECIO: $350.70  </h4> </div>
+  <div id="divdescripcion29">
+  <h4> La flor de cerezo es el símbolo de la felicidad y de la prosperidad. Con su color fresco y alegre, su mensaje es portador de suerte. </h4> </div> </div>
+     
+     <div id="divimagen30">   <img src="imagenes/55.jpg" height="200">  
+      <div id="divprecio30"> <h4> PRECIO: $470.00  </h4> </div>
+      	<div id="divdescripcion30"> <h4> Descripción: Alegrará el olfato con sus notas aciduladas de grosella negra y de pimientas rosas y con la delicada combinación de fresia y de la flor de naranjo. </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE HELLO KITY  </h4>
+	</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="perfume11">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE BARBIE</h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen31"> <br> <img src="imagenes/11.jpg"  width="200" height="200">    
+        <div id="divprecio31"> <h4> PRECIO: $340.00  </h4> </div>
+  <div id="divdescripcion31"> <h4> Descripción: es un estallido de frutos cítricos, menta salvaje, gelatina de ruibarbo, flor de naranja, jazmín, leche y lirio del valle, en dos versiones, con y sin alcohol. </h4>
+  </div> </div>
+  
+     <div id="divimagen32"> <br> <img src="imagenes/22.jpg" width="200" height="200" >
+    <div id="divprecio32"> <h4> PRECIO: $260.00  </h4> </div>
+  <div id="divdescripcion32">
+  <h4> Descripción: Es un agua de colonia que desprende aromas dulces de talco y camomila. Existe con alcohol y sin él  </h4> </div> </div>
+     
+     <div id="divimagen33">   <img src="imagenes/88.jpg" height="200">  
+      <div id="divprecio33"> <h4> PRECIO: $550.00  </h4> </div>
+      	<div id="divdescripcion33"> <h4> Descripción: Es una mezcla de aromas muy especial con base de manzana, mandarina y almizcle </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE BARBIE  </h4>
+	</div>
+</div>
+
+
+
+
+
+
+<div data-role="page" id="perfume12">
+	<div data-role="header">
+		<h1> 3 MUESTRAS DE PRINCESS </h1>
+	</div>
+	<div data-role="content">	
+        <div id="divimagen34"> <br> <img src="imagenes/33.jpg"  width="200" height="200">    
+        <div id="divprecio34"> <h4> PRECIO: $500.00  </h4> </div>
+  <div id="divdescripcion34"> <h4> Descripción: Envuelve al bebé con notas de violeta, jasmin y té de menta
+  </h4>
+  </div> </div>
+  
+     <div id="divimagen35"> <br> <img src="imagenes/66.jpg" width="200" height="200" >
+    <div id="divprecio35"> <h4> PRECIO: $450.00  </h4> </div>
+  <div id="divdescripcion35">
+  <h4> Descripción: Son toques de menta y madreselva en version para niño y para niña </h4> </div> </div>
+     
+     <div id="divimagen36">   <img src="imagenes/77.jpg" width="200" height="200"   >  
+      <div id="divprecio36"> <h4> PRECIO: $400.00  </h4> </div>
+      	<div id="divdescripcion36"> <h4> Descripción: Es una mezcla de almendras, vainilla y frutas cítricas sin alcohol para toda la familia  </h4> </div>
+      </div>
+      </div>
+	<div data-role="footer">
+		<h4>  MUESTRA TRES PERFUMES DE PRINCESS  </h4>
+	</div>
+</div>
+
+
+
+</body>
+</html>
